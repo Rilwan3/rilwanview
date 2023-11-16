@@ -1,0 +1,66 @@
+<html>
+<head>
+  <style>
+    body {
+      background-color: pink;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      animation: rainbow 3s infinite;
+    }
+
+    p {
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      animation: rainbow 3s infinite;
+    }
+
+    .heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+      margin: 50px auto;
+    }
+
+    .heart:before,
+    .heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+
+    .heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+
+    @keyframes rainbow {
+      0% {color: red;}
+      14% {color: orange;}
+      28% {color: yellow;}
+      42% {color: green;}
+      56% {color: blue;}
+      70% {color: indigo;}
+      84% {color: violet;}
+      100% {color: red;}
+    }
+  </style>
+</head>
+<body>
+  <h1>I love you, Fatima</h1>
+  <p>You are the best thing that ever happened to me</p>
+  <div class="heart"></div>
+</body>
+</html>
