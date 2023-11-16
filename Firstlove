@@ -2,7 +2,7 @@
 <head>
   <style>
     body {
-      background-color: pink;
+      background-color: blue;
       font-family: Arial, sans-serif;
     }
 
@@ -60,6 +60,7 @@
 </head>
 <body>
   <h1>I love you, Fatima</h1>
+<h2>Rilwan cares</h2>
   <p>You are the best thing that ever happened to me</p>
   <div class="heart"></div>
 </body>
